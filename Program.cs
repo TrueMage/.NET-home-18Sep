@@ -40,9 +40,9 @@
             Console.WriteLine("3 - Rules");
             Console.WriteLine("4 - Author");
             Console.WriteLine("0 - Exit");
-            int select = Convert.ToInt32(Console.ReadLine());
+            int selected = Convert.ToInt32(Console.ReadLine());
 
-            menu[select]();
+            menu[selected]();
         }
     }
 }
